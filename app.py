@@ -159,6 +159,7 @@ def scrape_policies(client: httpx.Client, base: str) -> List[Policy]:
     paths = [
         ("privacy", "/policies/privacy-policy"),
         ("refund", "/policies/refund-policy"),
+        ("return", "/policies/return-policy"),
         ("shipping", "/policies/shipping-policy"),
         ("terms", "/policies/terms-of-service"),
     ]
